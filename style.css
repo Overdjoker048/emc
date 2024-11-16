@@ -229,7 +229,6 @@ footer {
     animation: keyframes-fill 0.3s;
 }
 
-a {
-    color: #555;
-    text-decoration:none;
+.source {
+    color: #cccccc;
 }
