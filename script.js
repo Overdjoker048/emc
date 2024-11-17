@@ -7,6 +7,7 @@ const audioPlayer = document.getElementById('audioPlayer');
 openPopupBtn.addEventListener('click', () => {
     popup.classList.add('active');
     overlay.classList.add('active');
+    audioPlayer.play();
 });
 
 closePopupBtn.addEventListener('click', () => {
