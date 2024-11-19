@@ -131,7 +131,7 @@ li {
         display: none;
     }
     .left {
-        width: auto;
+        width: 100%;
     }
     .popup.active{
         width: 250px    ;
