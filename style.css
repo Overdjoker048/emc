@@ -83,6 +83,9 @@ footer {
     font-size: 0.9rem;
     color: #cccccc;
     margin-bottom: 0.5rem;
+}
+
+li {
     list-style: none;
 }
 
@@ -90,7 +93,8 @@ footer {
     border-right: 1px solid #999;
     border-bottom: none;
 }
-@media (max-width: 1500px) {
+
+@media (max-width: 1550px) {
     footer {
         flex-direction: column;
     }
@@ -122,6 +126,19 @@ footer {
       }
 }
 
+@media (max-width: 800px) {
+    .right {
+        display: none;
+    }
+
+    .left {
+        width: auto;
+    }
+    .popup.active{
+        width: 400px    ;
+    }
+}
+
 .popup {
     display: none;
     position: fixed;
@@ -137,7 +154,7 @@ footer {
 
 .popup.active {
     display: flex;
-    width: 450px;
+    width: 550px;
 }
 
 .overlay {
@@ -163,7 +180,7 @@ footer {
     background-color: #f44336;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 9px 13px;
     border-radius: 5px;
 }
 .close-btn:hover {
@@ -171,7 +188,6 @@ footer {
 }
 
 .voice-chat-card {
-    width: 450px;
     margin: auto;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -199,7 +215,6 @@ footer {
 }
 
 .username {
-    margin: 0 0 0 10px;
     font-size: 18px;
     color: black;
   }
@@ -208,6 +223,10 @@ footer {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+}
+
+.audio-container *{
+    margin: 5px;
 }
 
 #audioPlayer {
@@ -239,4 +258,18 @@ footer {
 
 .source {
     color: #cccccc;
+}
+
+.name{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    text-align: end;
+}
+
+.name *{
+    width: 50%;
 }
