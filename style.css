@@ -130,12 +130,11 @@ li {
     .right {
         display: none;
     }
-
     .left {
         width: auto;
     }
     .popup.active{
-        width: 400px    ;
+        width: 250px    ;
     }
 }
 
